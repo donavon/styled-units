@@ -1,0 +1,39 @@
+{
+  "name": "styled-units",
+  "version": "1.0.1",
+  "description": "A unit helper for styled-components.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "npm run lint && npm run _build && npm run _test",
+    "build": "npm run lint && npm run _build",
+    "_build": "babel src --out-dir lib",
+    "test": "npm run lint && npm run _test",
+    "_test": "echo Congrats! All ZERO test pass.",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donavon/styled-units.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "css-in-js",
+    "styled-components"
+  ],
+  "author": "Donavon West <donavon@github.com> (http://donavon.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donavon/styled-units/issues"
+  },
+  "homepage": "https://github.com/donavon/styled-units#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
