@@ -6,7 +6,7 @@
   "scripts": {
     "prepublish": "npm run lint && npm run _build && npm run _test",
     "build": "npm run lint && npm run _build",
-    "_build": "babel src --out-dir lib",
+    "_build": "babel src --out-dir lib --ignore '**/*.test.js'",
     "test": "npm run lint && npm run _test",
     "_test": "jest",
     "lint": "eslint src"
@@ -36,5 +36,9 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1",
     "jest": "^20.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
   }
 }

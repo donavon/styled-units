@@ -1,10 +1,12 @@
-# styled-units
+# styled-units 💅
 [![Build Status](https://travis-ci.org/donavon/styled-units.svg?branch=master)](https://travis-ci.org/donavon/styled-units)
-[![npm version](https://badge.fury.io/js/styled-units.svg)](https://www.npmjs.com/package/styled-units)
+[![npm version](https://img.shields.io/npm/v/styled-units.svg)](https://www.npmjs.com/package/styled-units)
+[![Coverage Status](https://coveralls.io/repos/github/donavon/styled-units/badge.svg?branch=master)](https://coveralls.io/github/donavon/styled-units?branch=master)
 
 TL;DR
 
-* Provides convenient unit property helper functions that go hand-in-hand with `styled-components`.
+* Provides convenient unit property helper functions that go hand-in-hand with
+[`styled-components`](https://www.npmjs.com/package/styled-components) 💅
 * Small footprint with **No Dependencies**!
 
 ## Install
@@ -50,8 +52,6 @@ Supported "units":
 | `vh` |  Returns the property specified with the "vh" suffix |
 | `prop` | Returns the property specified "as-is" |
 
-## TODO
+## Live
 
-Write some more FREAKIN' DOCS!
-
-In the mean time, check out this live example on [CodeSandbox](https://codesandbox.io/s/oYpNjXmWN).
+Check out this live example on [CodeSandbox](https://codesandbox.io/s/oYpNjXmWN).
