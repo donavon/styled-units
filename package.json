@@ -1,6 +1,6 @@
 {
   "name": "styled-units",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A unit helper for styled-components.",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "npm run lint && npm run _build",
     "_build": "babel src --out-dir lib",
     "test": "npm run lint && npm run _test",
-    "_test": "echo Congrats! All ZERO test pass.",
+    "_test": "jest",
     "lint": "eslint src"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^20.0.4"
   }
 }
