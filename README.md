@@ -1,5 +1,6 @@
 # styled-units
 [![Build Status](https://travis-ci.org/donavon/styled-units.svg?branch=master)](https://travis-ci.org/donavon/styled-units)
+[![npm version](https://badge.fury.io/js/styled-units.svg)](https://www.npmjs.com/package/styled-units)
 
 TL;DR
 
