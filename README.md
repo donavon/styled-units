@@ -1,4 +1,5 @@
 # styled-units
+[![Build Status](https://travis-ci.org/donavon/styled-units.svg?branch=master)](https://travis-ci.org/donavon/styled-units)
 
 TL;DR
 
