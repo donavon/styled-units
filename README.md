@@ -8,6 +8,14 @@ TL;DR
 * Provides convenient unit property helper functions that go hand-in-hand with
 [`styled-components`](https://www.npmjs.com/package/styled-components) 💅
 * Small footprint with **No Dependencies**!
+* For example, instead of doing this:
+  ```js
+  width: ${({ percent }) => `${percent}%`};
+  ```
+  you do this:
+  ```js
+  width: ${pct('percent')};
+  ```
 
 ## Install
 ```bash
