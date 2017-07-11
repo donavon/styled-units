@@ -8,7 +8,7 @@
     "build": "npm run lint && npm run _build",
     "_build": "babel src --out-dir lib --ignore '**/*.test.js'",
     "test": "npm run lint && npm run _test",
-    "_test": "jest --coverage",
+    "_test": "jest",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint src"
   },
@@ -41,6 +41,17 @@
   },
   "jest": {
     "verbose": true,
-    "collectCoverage": true
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   }
 }
